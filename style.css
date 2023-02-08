@@ -1,0 +1,172 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-auto-rows: 100vh;
+}
+.left {
+  background-color: black;
+  display: grid;
+  grid-template-rows: repeat(1, 0.8fr);
+  color: white;
+}
+.right {
+  background-color: rgb(0, 255, 217);
+}
+.logo-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: start;
+  align-items: center;
+}
+.dashboard-image {
+  transform: scale(0.7);
+  width: 90%;
+}
+.dashboard-meni {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+.dashboard-meni:hover {
+  border: solid 2px white;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+.dashboard-word {
+  width: 80%;
+  max-height: 50%;
+}
+.dashboard-icon {
+  transform: scale(0.4);
+}
+.right {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+}
+.upper-right {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.lower-right {
+  background-color: rgb(255, 228, 228);
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+}
+.upper-right-up {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 2fr;
+  justify-content: center;
+  align-items: center;
+}
+.upper-right-down {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 2%;
+}
+.search-image {
+  display: grid;
+  grid-area: auto;
+  margin-left: 50px;
+  transform: scale(0.3);
+}
+.input {
+  height: 50%;
+  border-radius: 30px;
+  margin-right: 30%;
+  background-color: rgba(128, 128, 128, 0.285);
+  font-size: larger;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-color: transparent;
+  outline: none;
+}
+.notification-image {
+  transform: scale(0.6);
+  margin-left: 50%;
+}
+.avatar-image {
+  margin-left: 40%;
+}
+.avatar1-image {
+  transform: scale(1.7);
+}
+.upper-right-down {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
+}
+.button {
+  background-color: red;
+  color: white;
+  outline: none;
+  font-size: larger;
+  border-radius: 30px;
+  border-color: transparent;
+  height: 50%;
+  width: 130px;
+  padding: 10%;
+}
+.button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.lower-right-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 3fr 3fr 3fr;
+}
+.lower-right-right {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr 4fr;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 40fr;
+  margin: 15px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-left {
+  background-color: rgba(0, 0, 0, 0.621);
+  border-radius: 15px;
+}
+.project-name-heading {
+  margin-left: 20px;
+}
+.card1 {
+  margin: 15px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 15px;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card-row {
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  justify-content: center;
+  align-items: center;
+}
