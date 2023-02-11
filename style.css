@@ -92,7 +92,7 @@ a {
   grid-template-rows: 1fr 1fr;
 }
 .lower-right {
-  background-color: rgb(145, 145, 145);
+  background-color: rgb(234, 234, 234);
   display: grid;
   grid-template-columns: 2.5fr 1fr;
 }
