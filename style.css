@@ -94,13 +94,23 @@ a {
 .lower-right {
   background-color: rgb(234, 234, 234);
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-rows: 1fr 10fr;
+  max-height: 100vh;
+}
+.lower-right > h3 {
+  font-size: x-large;
+  margin-left: 2%;
 }
 .upper-right-up {
   display: grid;
   grid-template-columns: 1fr 5fr 1fr 1fr 2fr;
   justify-content: center;
   align-items: center;
+}
+.books {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .upper-right-down {
   display: grid;
@@ -153,9 +163,37 @@ a {
   width: 130px;
   padding: 10%;
 }
+
 .button:hover {
   transform: scale(1.05);
   transition: 0.2s;
+}
+.add-book {
+  background-color: red;
+  color: white;
+  outline: none;
+  font-size: larger;
+  border-radius: 30px;
+  border-color: transparent;
+  height: 50%;
+  width: 130px;
+  padding: 10%;
+}
+.add-book:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.form-add-button {
+  background-color: red;
+  color: white;
+  outline: none;
+  font-size: larger;
+  border-radius: 30px;
+  border-color: transparent;
+  height: 50%;
+  width: 130px;
+  padding: 5%;
+  transform: scale(0.8);
 }
 .lower-right-left {
   display: grid;
