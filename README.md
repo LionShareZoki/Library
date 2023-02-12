@@ -18,6 +18,5 @@ This is a web application for tracking books in your personal library. The books
 3. Click on the "Add Book" button to open the add book modal.
 4. Fill in the details of the book and submit the form. The book will be added to your library.
 5. To mark a book as read or unread, click on the checkbox next to "Read?" on the book card.
-6. To edit the details of a book, click on the pencil icon on the book card.
 
 ![Project Image](https://github.com/LionShareZoki/Library/blob/master/images/project-image.png)
